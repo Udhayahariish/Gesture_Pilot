@@ -77,3 +77,37 @@ Gesture_Pilot/
 │
 └── assets/
     └── .gitkeep
+
+
+Installation & Setup
+Clone the repository:
+
+Bash
+git clone [https://github.com/Udhayahariish/Gesture_Pilot.git](https://github.com/Udhayahariish/Gesture_Pilot.git)
+cd Gesture_Pilot
+Install dependencies:
+
+Bash
+pip install -r requirements.txt
+Run the application:
+
+Bash
+python main.py
+Author
+Udhaya Hariish K S
+
+GitHub: @Udhayahariish
+
+Role: Lead Developer & Maintainer
+
+Feedback & Contributions
+Feedback, suggestions, and feature requests are very welcome! If you encounter any issues or have ideas to improve Gesture_Pilot:
+
+🐛 Report Issues: Open an issue on the GitHub repository to report bugs or glitches.
+
+💡 Feature Requests: Feel free to share ideas for new gestures or performance optimizations.
+
+🤝 Contributing: Pull requests are always appreciated! Feel free to fork the repository and submit your enhancements.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
