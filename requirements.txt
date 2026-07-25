@@ -1,0 +1,32 @@
+# Gesture_Pilot (REAL-TIME HAND FIGURE TRACKING MOUSE CURSOR)
+
+Gesture_Pilot is a real-time hand gesture–controlled virtual mouse system developed using Python, OpenCV, MediaPipe, NumPy, and PyAutoGUI. The project is designed to enable touch-free human-computer interaction by allowing users to control cursor movement, perform mouse clicks, and scroll vertically using intuitive hand gestures detected through a webcam.
+
+---
+
+## System Requirements & Prerequisites
+
+### Minimum Hardware Requirements
+* **Processor (CPU):** Dual-core 2.0 GHz or higher (e.g., Intel Core i3 / AMD Ryzen 3).
+* **RAM:** 4 GB minimum (8 GB recommended for smoother frame rates).
+* **Camera:** Integrated or external USB webcam capable of **720p @ 30 FPS**.
+* **Graphics (GPU):** Integrated graphics work fine; dedicated GPU (NVIDIA/AMD) improves processing speeds.
+
+### Software Requirements
+* **Operating System:** Windows 10/11, macOS (10.15 or later), or Linux (Ubuntu 20.04+).
+* **Python Version:** Python **3.9 to 3.11** (recommended for full MediaPipe stability).
+* **Display/GUI Environment:** A desktop environment with GUI support (required for OpenCV windows and mouse pointer control).
+
+### Python Dependencies
+Your environment must have the following core packages installed (listed in `requirements.txt`):
+* **`opencv-python`** – For camera stream capturing and image processing.
+* **`mediapipe`** – For real-time hand detection and 21-point landmark tracking.
+* **`pyautogui`** – For programmatic mouse movement, clicks, and scrolling simulation.
+* **`numpy`** – For matrix operations and distance calculations.
+
+### Recommended Operating Environment
+* **Lighting:** Adequate indoor lighting to prevent dark shadows or heavy noise in the webcam feed.
+* **Background:** Plain or clutter-free background so the hand tracking model doesn't confuse background objects for fingers.
+* **Camera Placement:** Position the webcam at chest or face level with a clear view of your hand within **0.5m to 1.5m** distance.
+
+---
