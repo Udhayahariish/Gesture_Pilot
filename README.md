@@ -1,4 +1,4 @@
-# Gesture_Pilot  (REAL-TIME HAND FINGURE TRACKING MOUSE CURSOR)
+# Gesture_Pilot
 
 Gesture_Pilot is a real-time hand gesture–controlled virtual mouse system developed using Python, OpenCV, MediaPipe, NumPy, and PyAutoGUI. The project is designed to enable touch-free human-computer interaction by allowing users to control cursor movement, perform mouse clicks, and scroll vertically using intuitive hand gestures detected through a webcam.
 
@@ -55,3 +55,25 @@ Gesture_Pilot is built with the following technologies:
 - **MediaPipe** for hand landmark detection
 - **NumPy** for mathematical operations
 - **PyAutoGUI** for controlling system mouse actions
+
+---
+
+## Project Structure
+
+```text
+Gesture_Pilot/
+│
+├── main.py
+├── README.md
+├── requirements.txt
+├── .gitignore
+├── LICENSE
+│
+├── screenshots/
+│   └── .gitkeep
+│
+├── docs/
+│   └── PROJECT_OVERVIEW.md
+│
+└── assets/
+    └── .gitkeep
